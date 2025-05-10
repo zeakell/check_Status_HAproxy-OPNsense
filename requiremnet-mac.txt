@@ -1,0 +1,8 @@
+#for mac
+pip3 install selenium
+
+python3 -c "import selenium; print(selenium.__version__)"
+#for driver firefox
+brew install geckodriver
+
+pip3 install beautifulsoup4     
