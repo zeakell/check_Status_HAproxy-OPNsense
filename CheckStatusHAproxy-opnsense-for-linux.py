@@ -1,3 +1,4 @@
+# IM USONG UBUNTU 22.04 FOR RUNNING SCRIPT WITH REQUEREMENT.TXT
 from datetime import datetime
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
