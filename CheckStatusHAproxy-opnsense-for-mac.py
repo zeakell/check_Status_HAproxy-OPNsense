@@ -1,5 +1,6 @@
 #for use on mac
 #check status HAPROXY-OPNSENSE USING SELENIUM
+# CREATED BY HARADA
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
