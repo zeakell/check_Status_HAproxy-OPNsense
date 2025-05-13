@@ -1,0 +1,16 @@
+#install browser chrome & driver
+sudo apt install chromium-browser chromium-chromedriver -y
+
+#install python3 & pip3
+sudo apt install python3 python3-pip -y
+
+#create virtual environment 
+python3 -m venv botopnsense
+#activating virtualenvironment
+source botopnsense/bin/activate
+
+#install dependency packages
+pip3 install selenium beautifulsoup4 requests
+
+#run the script.py
+python3 checkstatus_opnsense.py
